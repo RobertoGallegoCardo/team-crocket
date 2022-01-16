@@ -1,10 +1,30 @@
 /* Estilos para el título de la página */
+/* Aplicando inicialmente el selector universal */
+/* El tipo de fuente es opcional para pueba, luego lo podemos cambiar */
+
+*{
+	padding: 0;
+margin: 0;
+font-family: garamond;
+}
+
+/* Aplicando color de fondo al body */
+/* El color puede modificarse */
+
+body{
+	background-color: black;
+}
+
 header h1{
+	color: white;
+	text-align: center;
+	padding: 20px;
 
 }
 header nav{
 	overflow: hidden;
 	background: #;
+
 }
 /* Para quitar el estilo a la lista */
 header nav ul{

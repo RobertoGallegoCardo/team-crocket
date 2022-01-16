@@ -1,3 +1,9 @@
 Vista previa del proyecto:
 
 https://robertogallegocardo.github.io/team-crocket/
+
+/* Buenas compis; estoy haciendo cambios en el code, susceptibles de modificación, 
+como colores, fuentes, comentarios y demás, que podremos debatirlo en la siguiente reunion e ir 
+adelantando un poco la práctica */
+
+

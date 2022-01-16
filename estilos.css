@@ -1,1 +1,25 @@
-/* página de estilos.css para proyecto */
+/* Estilos para el título de la página */
+header h1{
+
+}
+header nav{
+	overflow: hidden;
+	background: #;
+}
+/* Para quitar el estilo a la lista */
+header nav ul{
+	list-style:none; 
+}
+/* Para poner el menú en línea */
+header nav ul li a{
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	color: #;
+}
+/* Darle color al menú cuando pasas por encima */
+header nav ul li a:hover{
+	background: #; 
+
+}

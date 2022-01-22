@@ -5,40 +5,130 @@
 *{
 	padding: 0;
 margin: 0;
-font-family: garamond;
 }
 
 /* Aplicando color de fondo al body */
-/* El color puede modificarse */
-
 body{
 	background-color: black;
 }
 
+/* Aplicando redimensiones a los elementos en pantalla*/
+header, footer{
+    width: 70.5%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Aplicando estilos a la cabecera y titular*/
 header h1{
 	color: white;
 	text-align: center;
 	padding: 20px;
+}
 
-}
-header nav{
-	overflow: hidden;
-	background: #;
-}
 /* Para quitar el estilo a la lista */
 header nav ul{
 	list-style:none; 
 }
-/* Para poner el menú en línea */
-header nav ul li a{
-	float: left;
-	padding: 10px;
-	text-decoration: none;
-	display: block;
-	color: #;
+header nav{
+	background-color: #2c28f7;
+	overflow: auto;
 }
-/* Darle color al menú cuando pasas por encima */
-header nav ul li a:hover{
-	background: #; 
+.menu ul {
+display: flex;
+align-items: center;
+	font-family:
+	 'Times New Roman', Times, serif;
+	}
+	
+ 
+ /* Aplica estilos a los link del menu desplegable */
 
+.menu a{
+	color: white;
+	font-size: 12pt;
+	display: block;
+	padding: 10px 60px;
+	background-color: #2c28f7;
+	text-decoration: none;
 }
+
+/* Color de fondo del menu con la accion hover (pasar raton) */
+/* colores gradiantes linear */
+.menu a:hover {
+	background-image: linear-gradient(black, blue);
+}
+
+/* Esconde los submenus del navegador */
+.menu ul li ul {
+	font-size: 12pt ;
+	font-family: 'Times New Roman', Times, serif;
+	display: none;
+}
+
+/* Muestra los submenus del navegador cuando pasas el raton */
+.menu ul li a:hover + ul {
+	display: block;
+	position: absolute;
+}
+/* Mantiene visible los submenus */
+.menu ul li ul:hover{
+	display:block;
+	position: absolute;
+}
+/* Aplicando estilos al aside */
+
+ aside{
+        margin-right: 200px; /* ancho del aside a la derecha*/
+        background: slategray;
+        float: right;
+        padding: 35px; /*ancho del aside a la izquierda*/
+		width: 15.2%; /* ancho del aside*/
+    }
+ 
+	aside img, #logo {
+		float:right; /*fijamos posicion del logo a la derecha*/
+		width: 220px; /* Ancho del logo */
+		height: 200px; /* Altura del logo */
+	}
+	#logo:hover img 
+	{background-color:rgb(74, 84, 94) ; /* Color gris cuando pasa el mouse encima*/ 
+	}
+
+/* Valores de estilos a l texto dentro del aside*/
+	h2{
+		font-size: 30PX;
+		text-align: center;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	h3{
+		font-size: 15px;
+		text-align: center;
+		color:#010377;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	p, strong{
+		font-family: 12px;
+		text-align: center;
+		color:#010377;
+		font-family: sans-serif;
+	}
+	/*Aplicando estilos a la imagen del inicio*/
+
+	 img {
+		margin-left: 200px;
+		float:left;
+		width: 673px;
+		height:400px;
+		
+	}
+	/* Aplicando estilos al footer*/
+	footer{
+		background-color: #2c28f7;
+        color: rgb(255, 255, 255);
+        text-align:center ;
+        clear:both;
+        padding: 10px 0px;
+    }
+	

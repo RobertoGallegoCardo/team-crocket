@@ -6,4 +6,4 @@ https://robertogallegocardo.github.io/team-crocket/
 como colores, fuentes, comentarios y demás, que podremos debatirlo en la siguiente reunion e ir 
 adelantando un poco la práctica */
 
-
+/* 23 de enero. He realizado cambios en el código porque en mi resolución no salía bien aliniado, he cambiado un poco la estética y he añadido contenido*/

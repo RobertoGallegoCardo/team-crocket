@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: garamond;
+
+}
+
+.container{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+
+.bloque h1{
+  
+    margin: 0;
+    font-size: 85px;
+    
+
+}
+
+
+.bloque{
+color:white;
+background-color: #0071C5;
+}
+
+.bloque.parallax{
+    height: 500px;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax.image-1{
+    background-image: url("ares.jpg");
+}
+.parallax.image-2{
+    background-image: url("afrodita.jpg");
+}
+.parallax.image-3{
+    background-image: url("poseidon.jpg");
+}

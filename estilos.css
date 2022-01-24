@@ -46,6 +46,8 @@ h1{
 	vertical-align: middle;
 	color: white;
 	background-color: #333333;
+	padding: 7px;
+	border-radius: 15px;
 }
 
 .logoPrincipal{

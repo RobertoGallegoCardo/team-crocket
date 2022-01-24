@@ -1,90 +1,144 @@
 /* Estilos para el título de la página */
-/* Aplicando inicialmente el selector universal */
-/* El tipo de fuente es opcional para pueba, luego lo podemos cambiar */
+/* Aplicando inicialmente el selector universal 
+y a la base de la página*/
+
 *{
-	padding: 0;
-	margin: 0;
+	padding: AUTO;
+	margin: auto;
+	text-align: center;
 }
-/* Aplicando color de fondo al body */
+
+/*Efectos básicos en colores*/
 body{
-	background-color: #72A0C1;
+	background-color: #dddddd;
+	font-family: sans-serif;
+	color: ffffff;
 }
-/* Aplicando redimensiones a los elementos en pantalla*/
-header, .main, footer{
-	width: 100%;
-	max-width: 1200px;
-	margin: auto; 
+
+/*Redimensión para páginas responsive*/
+header, main, footer{
+	width: 95vw;
+	margin: auto;
 }
-/* Aplicando estilos a la cabecera y titular*/
-header h1{
-	color: white;
+
+/*................................................................*/
+/*Personalización referente a la portada de la página*/
+
+/*Estilos de cabecera PENDIENTE DE REVISIÓN*/
+header{
+	color: #333333;
 	text-align: center;
 	padding: 20px;
-	font-family: Papyrus;
+	font-family: Helvetica;
+	height: 100vh;
+	/*Ajustes de la imagen de cabecera de la página*/
+	background: url("imagen/pexels-dominika-roseclay-1244705.jpg");
+	background-position: center;
+	
 }
+
+.logoPeque{
+	height: 40px;
+}
+
+h1{
+	font-family: Papyrus;
+	vertical-align: middle;
+}
+
+.logoPrincipal{
+	width: 5vw;
+}
+
 /* Para quitar el estilo a la lista */
 header nav ul{
 	list-style:none; 
+
 }
+
+
+/*Características generales del menu*/
 header nav{
 	border-radius: 15px;
-	background-color: #0071C5;
+	background-color: #333333;
 	overflow: auto;
+	/*Posición del menu respecto a la página: fijo en el desplazamiento
+	y centrado*/
+	position:static;
+	z-index: 100;
+	top: 0;
+	width: 90vw;
+	height: fit-content;
 }
+
+
+/*Atributos de los elementos de las distintas listas*/
 .menu ul {
-	display: flex;
+	display:flex;
 	align-items: center;
-	font-family:'Times New Roman', Times, serif;
+	color: #023859;
+	font: Helvetica;
 }
+
  /* Aplica estilos a los link del menu desplegable */
-.menu a{
+ .menu a{
 	color: white;
 	font-size: 12pt;
 	display: flex;
 	padding: 10px 60px;
-	background-color: #0071C5;
+	background-color: #333333;
+	
 	text-decoration: none;
 }
+
 /* Color de fondo del menu con la accion hover (pasar ratón) */
 /* colores gradiantes lineal */
 .menu a:hover {
 	background-image: linear-gradient(#FFD700, #FFA500);
-	color: #0071C5;
+	color: #333333;
 }
+
 /* Esconde los submenus del navegador */
 .menu ul li ul {
-	font-size: 12pt ;
-	font-family: 'Times New Roman', Times, serif;
 	display: none;
 }
+
 /* Muestra los submenus del navegador cuando pasas el ratón */
 .menu ul li a:hover + ul {
 	display: block;
 	position: absolute;
 }
+
 /* Mantiene visible los submenus */
 .menu ul li ul:hover{
 	display: block;
 	position: absolute;
 }
+
+/*................................................................*/
+
+/*Relativo al main*/
+
 /* Aplicando estilos al MAIN */
 #iframe{
-	margin: auto;
+	margin: 5vh;
 	display: flex;
-	width: 85%;
-	max-width:900px;
-	height: 900px;
+	width: 65vw;
+	height: 100vh;
 	float: left;
 	border-style: none;
 }
 
-/* Aplicando estilos al ASIDE */
+/*................................................................*/
+
+/*Relativo al aside*/
 aside{
-	width: 14.5%;
+	width: 33vw;
 	max-width: 300px;
 	padding: 10px;
-	background: #AFEEEE;
+	background: #ffffff;
 	border-radius: 15px;
+	margin: 5vh;
 	float: left;
 	display: flex;
 	flex-direction: column;
@@ -96,35 +150,21 @@ aside{
 	width: 85%;
 	height: 85%;
 }
+
 /* Color gris cuando pasa el mouse encima */ 
 #logo:hover img {
-	background-color: #48D1CC;
+	background-color: #FFD700;
 }
-/* Valores de estilos al texto dentro del aside */
-h2{
-	font-size: 28px;
-	text-align: center;
-	color: white;
-	font-family: Papyrus;
-}
-h3{
-	font-size: 15px;
-	text-align: center;
-	color:#010377;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}	
-p, strong{
-	font-family: 12px;
-	text-align: center;
-	color:#010377;
-	font-family: sans-serif;
-}
+
+/*................................................................*/
+
+/*Relativo al footer*/
 #maps{
 	border-style: none;
 }
 /* Aplicando estilos al FOOTER */
 footer, h5{
-	background-color: #0071C5;
+	background-color: #333333;
 	color: #FFD700;
 	border-radius: 15px;
 	text-align:center ;

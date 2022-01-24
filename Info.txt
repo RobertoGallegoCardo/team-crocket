@@ -7,3 +7,11 @@ como colores, fuentes, comentarios y demás, que podremos debatirlo en la siguie
 adelantando un poco la práctica */
 
 /* 23 de enero. He realizado cambios en el código porque en mi resolución no salía bien aliniado, he cambiado un poco la estética y he añadido contenido*/
+
+/* Color Theme Swatches in Hex */
+.Stockpay:-Brand-Identity-&-Website-1-hex { color: #023859; } AÑIL
+.Stockpay:-Brand-Identity-&-Website-2-hex { color: #0D6BA6; } AZUL
+.Stockpay:-Brand-Identity-&-Website-3-hex { color: #F29F05; } AMARILLO
+.Stockpay:-Brand-Identity-&-Website-4-hex { color: #F28907; } NARANJA
+.Stockpay:-Brand-Identity-&-Website-5-hex { color: #FFFFFF; } BLANCO
+

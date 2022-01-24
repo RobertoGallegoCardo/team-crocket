@@ -30,7 +30,7 @@ header{
 	text-align: center;
 	padding: 20px;
 	font-family: Helvetica;
-	height: 100vh;
+	height:max-content;
 	/*Ajustes de la imagen de cabecera de la página*/
 	background: url("imagen/pexels-dominika-roseclay-1244705.jpg");
 	background-position: center;
@@ -44,6 +44,8 @@ header{
 h1{
 	font-family: Papyrus;
 	vertical-align: middle;
+	color: white;
+	background-color: #333333;
 }
 
 .logoPrincipal{
@@ -62,13 +64,10 @@ header nav{
 	border-radius: 15px;
 	background-color: #333333;
 	overflow: auto;
-	/*Posición del menu respecto a la página: fijo en el desplazamiento
+	/*Posición del menu respecto a la página: relativa en el desplazamiento
 	y centrado*/
-	position:static;
-	z-index: 100;
-	top: 0;
-	width: 90vw;
-	height: fit-content;
+	position:-webkit-sticky;
+
 }
 
 

@@ -135,7 +135,7 @@ aside{
 	width: 33vw;
 	max-width: 300px;
 	padding: 10px;
-	background: #ffffff;
+	background: #333333;
 	border-radius: 15px;
 	margin: 5vh;
 	float: left;
@@ -144,15 +144,23 @@ aside{
 	justify-content: center;
 	align-items: center;
 }
+
+/*Relativo al text del aside*/
+
+p, strong, h2{
+padding:5px;
+color:#ffffff;
+}
 #logo{
-	float:left;
+padding:10px;
+	float: left;
 	width: 85%;
 	height: 85%;
 }
 
-/* Color gris cuando pasa el mouse encima */ 
+/* Cambio color cuando pasa el mouse encima */ 
 #logo:hover img {
-	background-color: #FFD700;
+	background-color: #3333ff;
 }
 
 /*................................................................*/
@@ -160,6 +168,7 @@ aside{
 /*Relativo al footer*/
 #maps{
 	border-style: none;
+padding:15px;
 }
 /* Aplicando estilos al FOOTER */
 footer, h5{
